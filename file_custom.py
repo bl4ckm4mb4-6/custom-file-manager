@@ -222,7 +222,7 @@ def txt_to_lds():
 
 def about():
     about_txt = '''
-    [bold dark_orange]LDS File Manager v1.0[/bold dark_orange]
+    [bold dark_orange]LDS File Manager v1.1[/bold dark_orange]
     Questo tool è un file manager per il formato proprietario LDS (Luigi De Santis).
     Permette di scrivere file tramite un editor integrato, leggere file .lds, 
     convertire file lds in txt e viceversa.
@@ -268,7 +268,7 @@ def main():
         subprocess.run('cls', shell=True)
         console.print("\n")
         testo = Text("LDS File Manager",style="bold dodger_blue1", justify="center")
-        pannello = Panel(testo, subtitle="1.0", style="bold dodger_blue1", padding=(0, 4) ,expand=False)
+        pannello = Panel(testo, subtitle="1.1", style="bold dodger_blue1", padding=(0, 4) ,expand=False)
         console.print(Align.center(pannello))
         console.print(f"\nBenvenuto in LDS File Manager!")
 
